@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"></head>
+<body>
+<script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+<script>
+  liff.init({ liffId: "2009864106-AVsDDK2z" })
+    .then(() => liff.getProfile())
+    .then((profile) => {
+      const uid = profile.userId;
+      window.location.href = 
+        "https://vjpki9fwx25m.jp.larksuite.com/share/base/form/shrjp7NYbJEVa15YjTQIvNHcTbh?LINE_UID=" + uid;
+    });
+</script>
+</body>
+</html>
