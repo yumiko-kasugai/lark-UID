@@ -32,7 +32,7 @@
       return fetch("https://hook.us2.make.com/ah67wbil9h9cfs2x8x6hb1osmvuhp6cf", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ lineUid: profile.userId })
+        body: JSON.stringify({ lineUid: profile.userId, type: "reception" })
       });
     })
     .then(() => {
